@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "roast_levels",
+  "info": {
+    "name": "Roast_levels"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "level": {
+      "type": "string"
+    }
+  }
+}

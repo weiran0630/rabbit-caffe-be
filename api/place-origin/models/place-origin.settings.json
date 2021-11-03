@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "place_origins",
+  "info": {
+    "name": "Place_origin",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "place_name": {
+      "type": "string"
+    }
+  }
+}
